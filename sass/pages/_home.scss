@@ -27,3 +27,24 @@
     padding: 15rem 0;
     //opacity: .15;
 }
+.section-book{
+    padding: 15rem 0;
+    background-image: linear-gradient(to right bottom,$color-primary-light,$color-primary-dark);
+}
+.book{
+    background-image: url(../img/nat-10.jpg);
+    background-size: 100%;
+    border-radius: 3px;
+    box-shadow: 0 3rem 4rem rgba($color-black, 0.2);
+    height: 50rem;
+    &__solid-gradient{
+        clip-path: polygon(0 0,55% 0,45% 100%,0 100%);
+        background-color: rgba($color-white, .9);
+        height: 50rem;
+    }
+    &__form{
+        width: 50%;
+        padding: 6rem;
+    }
+
+}
